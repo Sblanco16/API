@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #111215;
+}
+#Nav{
+    background-color: #2c303a;
+}
+#letra{
+    color: white;
+}
+.contenedor_card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    place-items: center;
+}
+.card{
+    color: white;
+    background-color: #2c303a;
+    height: 400px;
+    max-height: fit-content;
+    width:20rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.card-text{
+   font-weight: bold; 
+}
+.form-select{
+    background-color: #111215;
+    color: white;
+}
+.card img{
+    border-radius: 15px;
+}
+#footer{
+    color: white;
+    text-align: center;
+}
+.sociales{
+margin-bottom: 1rem;
+}
+.White{
+border-color: white;
+}
+#Ig{
+margin-left: 10px;
+}
